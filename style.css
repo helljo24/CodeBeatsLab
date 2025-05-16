@@ -154,6 +154,7 @@ nav a {
     text-align: center;
 }
 
+
 .contact h2 {
     font-size: 1.8rem;
     margin-bottom: 1rem;
@@ -177,36 +178,32 @@ nav a {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center; /* CENTER everything */
+    align-items: center;
+    justify-content: center;
     gap: 0.8rem;
 }
-
 .social-item {
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     font-size: 1rem;
-    line-height: 1.4;
-    justify-content: center; /* CENTER content within each item */
 }
-
 .social-item img {
     width: 18px;
     height: 18px;
     filter: invert(65%) sepia(90%) saturate(500%) hue-rotate(180deg);
-    vertical-align: middle;
 }
-
 .social-item a {
     color: #00ffff;
     font-weight: bold;
     text-decoration: none;
 }
-
 .social-item a:hover {
     color: #00bfff;
     text-decoration: underline;
 }
+
 
 
 /* FOOTER */
