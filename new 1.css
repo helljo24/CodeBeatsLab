@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0b0f1a;
+    color: #ffffff;
+}
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #0d1220;
+}
+header h1 {
+    color: #00ffff;
+}
+.tagline {
+    font-size: 1.2rem;
+    color: #00bfff;
+}
+nav a {
+    margin: 0 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #11182a;
+}
+.hero .btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.8rem 1.2rem;
+    background: #00bfff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.about, .services {
+    padding: 2rem 1rem;
+}
+.about ul {
+    list-style-type: square;
+    padding-left: 2rem;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+.card {
+    background: #1c2435;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0d1220;
+    font-size: 0.9rem;
+    color: #aaaaaa;
+}
