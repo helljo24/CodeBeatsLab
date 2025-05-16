@@ -83,19 +83,23 @@ nav a {
     gap: 2rem;
     margin-top: 1.5rem;
 }
+
 .about-img {
-    width: 300px;
+    width: 220px;
     max-width: 100%;
+    border-radius: 10px;
+    flex-shrink: 0;
 }
 
 .about-text {
     max-width: 400px;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     line-height: 1.6;
     list-style-type: square;
     padding-left: 1.2rem;
     text-align: left;
 }
+
 
 /* SERVICES SECTION */
 .services {
