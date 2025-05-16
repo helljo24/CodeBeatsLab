@@ -36,6 +36,12 @@ nav a {
     border-radius: 5px;
     font-weight: bold;
 }
+.hero-img, .section-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
 .about, .services {
     padding: 2rem 1rem;
 }
@@ -55,6 +61,12 @@ nav a {
     border-radius: 10px;
     width: 200px;
     text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
 }
 footer {
     text-align: center;
