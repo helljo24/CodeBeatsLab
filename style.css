@@ -178,7 +178,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .social-item {
@@ -189,8 +189,8 @@ nav a {
 }
 
 .social-item img {
-    width: 32px;
-    height: 32px;
+    width: 20px;
+    height: 20px;
     margin-bottom: 0.3rem;
     filter: invert(65%) sepia(90%) saturate(500%) hue-rotate(180deg);
 }
