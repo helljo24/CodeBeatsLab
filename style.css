@@ -74,20 +74,28 @@ nav a {
     font-size: 1.8rem;
     margin-bottom: 1rem;
 }
-.section-img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 10px;
-    margin: 0 auto 1rem;
+.about-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 1.5rem;
 }
-.about ul {
+.about-img {
+    width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+.about-text {
+    max-width: 400px;
+    font-size: 0.9rem;
+    line-height: 1.6;
     list-style-type: square;
-    padding-left: 1.5rem;
-    max-width: 600px;
-    margin: 0 auto;
+    padding-left: 1.2rem;
     text-align: left;
-    line-height: 1.8;
 }
 
 /* SERVICES SECTION */
