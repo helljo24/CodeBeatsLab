@@ -182,12 +182,13 @@ nav a {
 }
 .social-links {
     margin-top: 2rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 0.8rem;
+    gap: 1rem;
 }
+
 .social-item {
     display: flex;
     align-items: center;
@@ -200,15 +201,18 @@ nav a {
     height: 18px;
     filter: invert(65%) sepia(90%) saturate(500%) hue-rotate(180deg);
 }
+
 .social-item a {
     color: #00ffff;
     font-weight: bold;
     text-decoration: none;
 }
+
 .social-item a:hover {
     color: #00bfff;
     text-decoration: underline;
 }
+
 
 
 
