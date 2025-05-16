@@ -86,9 +86,8 @@ nav a {
 .about-img {
     width: 300px;
     max-width: 100%;
-    border-radius: 10px;
-    flex-shrink: 0;
 }
+
 .about-text {
     max-width: 400px;
     font-size: 0.9rem;
