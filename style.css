@@ -115,10 +115,13 @@ nav a {
     margin-bottom: 2rem;
 }
 .grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 1rem 0;
+}
+
 }
 .card {
     background: #1c2435;
