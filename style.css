@@ -213,13 +213,17 @@ nav a {
     text-decoration: underline;
 }
 a.card {
-  text-decoration: none !important;
-  color: inherit !important;
+  all: unset;
+  display: block;
 }
 
-a.card * {
-  text-decoration: none !important;
-  color: inherit !important;
+a.card h3,
+a.card p {
+  color: #dddddd;
+  text-decoration: none;
+}
+a.card h3 {
+  color: #00bfff;
 }
 
 /* FOOTER */
