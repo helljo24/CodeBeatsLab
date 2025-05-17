@@ -212,6 +212,15 @@ nav a {
     color: #00bfff;
     text-decoration: underline;
 }
+.card {
+  text-decoration: none;
+  color: inherit;
+}
+
+.card h3,
+.card p {
+  text-decoration: none;
+}
 a.card {
   text-decoration: none;
   color: inherit;
