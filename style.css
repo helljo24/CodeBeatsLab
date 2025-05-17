@@ -212,29 +212,14 @@ nav a {
     color: #00bfff;
     text-decoration: underline;
 }
-.card {
-  text-decoration: none;
-  color: inherit;
-}
-
-.card h3,
-.card p {
-  text-decoration: none;
-}
 a.card {
-  text-decoration: none;
-  color: inherit;
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
-a.card h3,
-a.card p {
-  text-decoration: none;
-  color: inherit;
-}
-
-a.card:hover {
-  transform: translateY(-5px);
-  cursor: pointer;
+a.card * {
+  text-decoration: none !important;
+  color: inherit !important;
 }
 
 /* FOOTER */
