@@ -255,30 +255,30 @@ a.card p {
   color: #dddddd !important;
   text-decoration: none !important;
 }
-.freelance-links-inline {
+.freelance-buttons {
   display: flex;
   flex-direction: column;
-  gap: 0.6rem;
-  margin-top: 1rem;
   align-items: center;
+  gap: 10px;
+  margin-top: 1rem;
 }
 
-.btn-inline {
+.freelance-buttons a {
   background-color: #00bfff;
   color: #000;
-  padding: 0.5rem 1.2rem;
+  padding: 0.6rem 1.4rem;
   border-radius: 6px;
   font-weight: bold;
   text-decoration: none;
   font-size: 0.9rem;
   width: 180px;
   text-align: center;
-  transition: background-color 0.2s;
+  box-shadow: 0 0 8px rgba(0, 191, 255, 0.3);
+  transition: background-color 0.3s ease;
 }
 
-.btn-inline:hover {
+.freelance-buttons a:hover {
   background-color: #00a5d1;
-  color: #000;
   cursor: pointer;
 }
 
