@@ -217,6 +217,7 @@ a.card {
   display: block;
 }
 
+/* Restore full .card styling on the link card */
 a.card {
   background: #1c2435;
   padding: 1rem;
@@ -242,15 +243,17 @@ a.card img {
 
 a.card h3 {
   margin: 0.5rem 0 0.25rem;
-  color: #00bfff;
-  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #00bfff !important;
+  text-decoration: none !important;
 }
 
 a.card p {
   margin: 0;
   font-size: 0.95rem;
-  color: #dddddd;
-  text-decoration: none;
+  color: #dddddd !important;
+  text-decoration: none !important;
 }
 
 /* FOOTER */
