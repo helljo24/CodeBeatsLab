@@ -255,6 +255,31 @@ a.card p {
   color: #dddddd !important;
   text-decoration: none !important;
 }
+.freelance-links {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    align-items: center;
+}
+
+.freelance-links .btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #00bfff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 220px;
+    text-align: center;
+    transition: background 0.2s;
+}
+
+.freelance-links .btn:hover {
+    background: #00a5d1;
+    cursor: pointer;
+}
 
 /* FOOTER */
 footer {
