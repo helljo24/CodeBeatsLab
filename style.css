@@ -255,30 +255,32 @@ a.card p {
   color: #dddddd !important;
   text-decoration: none !important;
 }
-.freelance-links {
-    margin-top: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    align-items: center;
+.freelance-links-inline {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  align-items: center;
 }
 
-.freelance-links .btn {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
-    background: #00bfff;
-    color: #000;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    width: 220px;
-    text-align: center;
-    transition: background 0.2s;
+.mini-link {
+  display: inline-block;
+  background-color: #00bfff;
+  color: #000;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.9rem;
+  width: 160px;
+  text-align: center;
+  transition: background 0.3s;
 }
 
-.freelance-links .btn:hover {
-    background: #00a5d1;
-    cursor: pointer;
+.mini-link:hover {
+  background-color: #00a5d1;
+  color: #000;
+  cursor: pointer;
 }
 
 /* FOOTER */
