@@ -212,17 +212,21 @@ nav a {
     color: #00bfff;
     text-decoration: underline;
 }
-.card {
+a.card {
   text-decoration: none;
   color: inherit;
 }
 
-.card h3,
-.card p {
+a.card h3,
+a.card p {
   text-decoration: none;
+  color: inherit;
 }
 
-
+a.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
 
 /* FOOTER */
 footer {
