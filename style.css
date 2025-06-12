@@ -292,7 +292,21 @@ a.card p {
   background-color: #00a5d1;
   cursor: pointer;
 }
+/* Make the podcast card specifically taller */
+.podcast-card {
+  height: 450px; /* Adjust as needed — larger to show the full cover art with text */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
+/* Image styling → shows full picture WITH text clearly */
+.podcast-card img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; /* Shows entire image without cutting edges or text */
+  margin-bottom: 0.75rem;
+}
 
 /* FOOTER */
 footer {
