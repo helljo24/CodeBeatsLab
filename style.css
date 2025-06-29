@@ -311,35 +311,7 @@ a.card p {
   box-shadow: 0 0 6px rgba(0, 191, 255, 0.4);
   z-index: 10;
 }
-/* Pulse animation */
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    box-shadow: 0 0 6px rgba(0, 191, 255, 0.4);
-  }
-  50% {
-    transform: scale(1.1);
-    box-shadow: 0 0 12px rgba(0, 191, 255, 0.7);
-  }
-  100% {
-    transform: scale(1);
-    box-shadow: 0 0 6px rgba(0, 191, 255, 0.4);
-  }
-}
 
-.highlighted-card .badge {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: #00bfff;
-  color: #000;
-  font-size: 0.7rem;
-  font-weight: bold;
-  padding: 4px 8px;
-  border-radius: 6px;
-  z-index: 10;
-  animation: pulse 2s infinite;
-}
 
 
 /* FOOTER */
