@@ -292,7 +292,7 @@ a.card p {
   background-color: #00a5d1;
   cursor: pointer;
 }
-/* Highlighted Card Badge */
+
 .highlighted-card {
   position: relative;
   border: 2px solid #00bfff;
