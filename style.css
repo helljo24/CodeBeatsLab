@@ -292,6 +292,25 @@ a.card p {
   background-color: #00a5d1;
   cursor: pointer;
 }
+/* Highlighted Card Badge */
+.highlighted-card {
+  position: relative;
+  border: 2px solid #00bfff;
+}
+
+.highlighted-card .badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #00bfff;
+  color: #000;
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 4px 8px;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 191, 255, 0.4);
+  z-index: 10;
+}
 
 /* FOOTER */
 footer {
